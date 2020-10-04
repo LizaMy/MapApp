@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    Intent newIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,10 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 finally {
-           ///// ********** Переход к следущей активности  *********** //////////////////
-                    //Intent newIntent = new Intent(MainActivity.this, StartActivity.class);
-                    //startActivity(newIntent);
-
                     Intent newIntent = new Intent(MainActivity.this, StartActivity.class);
                     startActivity(newIntent);
 

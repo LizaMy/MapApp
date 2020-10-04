@@ -8,18 +8,6 @@
     tools:context=".StartActivity"
     android:background="#600071D4">
 
-
-    <Button
-        android:id="@+id/customization"
-        android:layout_width="46dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginHorizontal="350dp"
-        android:background="@drawable/a23"
-        android:stateListAnimator="@null">
-
-    </Button>
-
     <TextView
         android:layout_width="251dp"
         android:layout_height="65dp"
@@ -35,6 +23,7 @@
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginVertical="5dp"
         android:text="3 км">
     </Button>
 
@@ -43,19 +32,26 @@
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="10 км"
-        android:layout_marginVertical="10dp">
-
+        android:layout_marginVertical="5dp"
+        android:text="10 км">
     </Button>
 
     <Button
         android:id="@+id/km_21_42"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
         android:layout_gravity="center"
         android:text="21 км | 42 км">
-
     </Button>
 
+    <Button
+        android:id="@+id/scamper"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"
+        android:text="Пробежка">
+    </Button>
 
 </LinearLayout>
